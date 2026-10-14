@@ -148,7 +148,7 @@
   right: clamp(4%, 7vw, 10%);
   width: clamp(120px, 20vw, 220px);
   aspect-ratio: 1;
-  background-image: url('../assets/stark_personhealth.png');
+  background-image: url('./assets/stark_personhealth.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

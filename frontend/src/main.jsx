@@ -15,8 +15,7 @@ if ('serviceWorker' in navigator) {
     const hostname = window.location.hostname;
     const isLocal = hostname === 'localhost' || hostname === '127.0.0.1';
 
-    if (isLocal) {
-    }
+    const isDevMode = new URLSearchParams(window.location.search).get('dev') === 'true';
 
       // During local development and dev mode, avoid registering any Service Worker so builds load fresh
       if (isLocal || isDevMode) {
